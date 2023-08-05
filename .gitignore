@@ -1,0 +1,39 @@
+# Django related files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore the database file (change the name if you're using a different database)
+db.sqlite3
+
+# Ignore static files (if you use collectstatic to manage static files)
+/static/
+
+# Ignore media files (user-uploaded content)
+/media/
+
+# Ignore local settings
+local_settings.py
+
+# Ignore the virtual environment (change name if you use a different virtual environment tool)
+venv/
+env/
+*.env
+
+# Ignore development and editor-specific files
+.vscode/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.tmp
+*.log
+*.idea/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore system backup files (on Unix-like systems)
+*~
